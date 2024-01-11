@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+* {
+  /* margin: 0; */
+  padding: 0;
+}
+h3 {
+  margin: 1rem;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+body {
+  /* width: 800px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 32px;
+}
+
+.header {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.btn {
+  border: none;
+  font-size: 2.5rem;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  color: white;
+  background-color: #7524c0;
+  cursor: pointer;
+}
+
+.textbox {
+  border: 1.5px solid rgb(107, 107, 107);
+  width: 30rem;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  color: rgb(117, 117, 117);
+  /* margin-top: 15rem; */
+  margin-bottom: 3rem;
+  background-color: #ffffff;
+  transition: opacity 0.25s;
+}
+.main {
+  /* overflow: auto; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 75vh;
+  width: 100vh;
+}
+.stocklist {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: auto;
+  /* overflow: auto; */
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ol {
+  padding-left: 12rem;
+}
