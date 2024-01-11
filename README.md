@@ -1,5 +1,4 @@
 
-FULLSTACK BACKEND FULL TIME
 
 
 Build a web application on react with your choice of backend (preferably nodejs or golang). You should be using the polygon free tier API for fetching all the required data (polygon.io)
@@ -20,6 +19,5 @@ Frontend
 
 3. Display the data received from websocket on the frontend as and when receieved.
 
-You will be evaluated based on the structuring, readability, handling of edge cases, error handling, scalability, UI.
 
 
