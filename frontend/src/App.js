@@ -10,6 +10,7 @@ export default function App() {
   const [selectedStocks, setSelectedStocks] = useState([]);
   const [inputValue, setInputValue] = useState("");
   const [subscribe, setSubscribe] = useState(false);
+  console.log(socket);
 
   useEffect(() => {
     const newSocket = new WebSocket("ws://localhost:5000");
